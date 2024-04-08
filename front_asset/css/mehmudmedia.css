@@ -1,0 +1,169 @@
+@media only screen and (max-width: 600px) {
+    .mainprodsec .filtersec {
+    /*float: left;*/
+    /*width: 100%;*/
+    /*height: fit-content;*/
+    /*padding: 20px;*/
+    /*border-radius: 20px;*/
+     border: none !important; 
+}
+
+.product-imgs {
+    display: flex;
+    max-height: 300px;
+    height: 100%;
+    align-items: center;
+    /*position: relative;*/
+}
+/*.product-imgs {*/
+/*    display: flex;*/
+    
+/*}*/
+.img-display img {
+    width: 63%;
+    height: auto;
+    display: block;
+    background: #F0EEED;
+    border-radius: 20px;
+    padding: 14px;
+    margin: 16px 0px;
+    max-height:450px;
+}
+.boll8 {
+    width: 30%;
+    
+}
+.wot2 {
+    padding: 0 20px 0 20px;
+}
+    /*.mainprodsec .filtersec {*/
+    /*    display: none !important;*/
+    /*}  */
+   
+    .mainprodsec .prodsec .card1 {
+        float: left  !important;
+        width: 100% !important;
+        padding: 20px 0 !important ;
+    }
+    
+    .prodsec .card1 .crdet .up .image img {
+        width: 120px !important ;
+        height: 110px !important ;
+    }
+
+    .prodsec .card1 .crdet .up .image {
+        padding-bottom: 0px !important;
+    }
+    
+    .prodsec .card1 .crdet .up .up1 {
+        padding: 10px  !important;
+    }
+    .prodsec .card1 .crdet .down .det1 h4 {
+        font-size: 14px  !important;
+    }
+    
+    .prodsec .card1 .crdet .down .det1 p {
+        font-size: 12px  !important;
+    }
+
+    .prodsec .card1 .crdet .down .det2 .rating i {
+        font-size: 12px !important;    
+    }
+    .prodsec .card1 .crdet .down .det2 span {
+        color: #000 !important;
+        font-size: 12px  !important;
+        font-weight: 400 !important;
+    }
+    .atcbtn .btn {
+        width: 120px !important;
+        height: 28px !important;
+        border-radius: 35px !important;
+        background: #261A39 !important;
+        color: #FFF !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+    }
+    .cartsec2 .csec2lft{
+        float: left !important;
+        width: 100% !important ;
+    }
+    .cartsec2 .csec2lft .mcart{
+        float: left !important ;
+        width: 100% !important ;
+        margin: 10px !important ;
+    }
+
+    .cartsec2 .csec2lft .mcart .icart .icons .add {
+        float: right  !important;
+        width: 70px  !important;
+    }
+
+    .cartsec2 .csec2rgt .sum .summary .promo .prlft {
+        float: left !important;
+        width: 100%  !important;
+        padding-bottom: 20px  !important;
+    }
+
+    .chkoutsec1 .chksec1lft .pmethod {
+        float: left !important;
+        width: 100%  !important;
+    }
+    .chkoutsec1 .chksec1rgt .sum .summary .promo .prlft {
+        float: left !important;
+        width: 100%  !important;
+        padding-bottom: 20px !important;
+    }
+    .ordersec1 .order .ordercart {
+        float: left !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .cartsec2 .csec2lft .mcart .icart .image {
+        float: left !important;
+        width: 100% !important;
+        border-radius: 10px !important;
+        background: rgba(235, 235, 235, 0.62) !important;
+        padding: 10px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .cartsec2 .csec2lft .mcart .icart .image img {
+        width: 50px !important;
+        height: 65px !important;
+    }
+    
+ 
+    .ordersec1 .order .ordercart .ocart .image img {
+        width: 50px !important;
+        height: 65px !important;
+    }
+    .ordersec1 .order .ordercart .ocart .image {
+        float: left !important;
+        width: 100% !important;
+        border-radius: 10px !important;
+        background: rgba(235, 235, 235, 0.62) !important;
+        padding: 10px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .ordersec1 .order .ordercart .maincart {
+        float: left !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    .ordersec1 .order .ordercart .ocart {
+        padding: 10px !important;
+    }
+    .ordercart .ocart .icons .buybtn .bybtn {
+        width: 75px !important;
+        height: 24px !important;
+        font-size: 10px !important;
+    }
+
+
+
+
+  }

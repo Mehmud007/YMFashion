@@ -1,0 +1,1177 @@
+.prodsec1 {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodsec1 span {
+    color: #515151;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainprodsec {
+    float: left;
+    width: 100%;
+}
+
+.mainprodsec .filtersec {
+    float: left;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.mainprodsec .filtersec .filter {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .heading {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.filtersec .filter .heading h2 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.filtersec .filter .heading i {
+    color: #000;
+    font-size: 18px;
+}
+
+.line {
+    float: left;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    
+    /*margin: 10px 0;*/
+}
+
+.filtersec .filter .brand {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.filtersec .filter .brand ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtersec .filter .brand ul li span {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.filtersec .filter .color {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.filtersec .filter .color .up {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .color .up h4 {
+    color: #070707;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filtersec .filter .color .down {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb-checkbox {
+    margin: 10px;
+}
+
+.sb-checkbox {
+    display: inline-block;
+    font-size: 0;
+}
+
+.sb-checkbox__input {
+    display: none;
+}
+
+.sb-checkbox__input:checked+.sb-checkbox__label:after {
+    opacity: 1;
+}
+
+.sb-checkbox__label {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sb-checkbox__label:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.sb-checkbox__label:after {
+    content: '';
+    width: 26px;
+    height: 26px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+
+.sb-checkbox__label--black:before {
+    border-color: #000000;
+}
+
+.sb-checkbox__label--black:after {
+    background-color: #000000;
+    color: #fff;
+}
+
+.sb-checkbox__label--red:before {
+    border-color: #CF2020;
+}
+
+.sb-checkbox__label--red:after {
+    background-color: #CF2020;
+    color: #fff;
+}
+
+.sb-checkbox__label--blue:before {
+    border-color: #000258;
+}
+
+.sb-checkbox__label--blue:after {
+    background-color: #000258;
+    color: #fff;
+}
+
+.sb-checkbox__label--white:before {
+    border-color: #f0f0f0;
+}
+
+.sb-checkbox__label--orange:after {
+    background-color: #ffffff;
+    border: 2px solid #EEBDBD;
+    color: #fff;
+}
+
+.sb-checkbox__label--rose:before {
+    border-color: #EEBDBD;
+}
+
+.sb-checkbox__label--rose:after {
+    background-color: #EEBDBD;
+    color: #fff;
+}
+
+.sb-checkbox__label--green:before {
+    border-color: #074819;
+}
+
+.sb-checkbox__label--green:after {
+    background-color: #074819;
+    color: #fff;
+}
+
+.filtersec .filter .price {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.filtersec .filter .price .up {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .price .up h4 {
+    color: #070707;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filtersec .filter .price .down {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .price .down ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtersec .filter .price .down ul li span {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+
+.filtersec .filter .storage {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.filtersec .filter .storage .up {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .storage .up h4 {
+    color: #070707;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filtersec .filter .storage .down {
+    float: left;
+    width: 100%;
+}
+
+.filtersec .filter .storage .down ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtersec .filter .storage .down ul li span {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.filtersec .filter .Applybtn {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtersec .filter .Applybtn .btn {
+    height: 40px;
+    width: 190px;
+    border-radius: 35px;
+    background: #000;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ .prodsec {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+ .prodsec .card1 {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+ .prodsec .card1 .crdet {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+ .prodsec .card1 .crdet .up {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .prodsec .card1 .crdet .up:hover .image {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.prodsec .card1 .crdet .up .up1 {
+    float: left;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(244, 244, 244, 0.60);
+    border-radius: 20px;
+}
+
+.prodsec .card1 .crdet .up .like {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.prodsec .card1 .crdet .up .like i {
+    font-size: 14px;
+}
+
+.prodsec .card1 .crdet .up .image {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+
+.prodsec .card1 .crdet .up .image img {
+    width: 240px;
+    height: 190px;
+}
+
+.prodsec .card1 .crdet .down {
+    float: left;
+    width: 100%;
+}
+
+.prodsec .card1 .crdet .down .det1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.prodsec .card1 .crdet .down .det1 h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.prodsec .card1 .crdet .down .det1 p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.prodsec .card1 .crdet .down .det2 {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodsec .card1 .crdet .down .det2 .rating i {
+    font-size: 16px;
+}
+
+.prodsec .card1 .crdet .down .det2 span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* -------- Add To Cart Button-------- */
+.atcbtn {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atcbtn .btn {
+    width: 170px;
+    height: 34px;
+    border-radius: 35px;
+    background: #261A39;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+/* ............Wishlist page........... */
+
+ .mainheading {
+    float: left;
+    width: 100%;
+    padding: 40px 0 20px;
+}
+
+.mainprodsec .mainheading h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ............Cart page........... */
+
+
+.cartsec1 {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartsec1 span {
+    color: #515151;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cartsec2 {
+    float: left;
+    width: 100%;
+    /* padding: 40px 0;   */
+}
+
+.cartsec2 .heading {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .heading h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cartsec2 .csec2lft {
+    float: left;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .cartsec2 .csec2lft .mcart {
+   
+    padding: 25px 45px 25px 45px !important;
+   
+}
+.cartsec2 .csec2lft .mcart .icart .icons .add .minus {
+    width: 20px;
+    height: 20px;
+}
+.cartsec2 .csec2lft .mcart .icart .icons .add .minus i {
+    font-size: 10px;
+    color: black;
+}
+.cartsec2 .csec2rgt .sum .summary {
+        padding: 8px !important;
+    border: none !important;
+}
+.cartsec2 .csec2rgt .sum {
+     border: 1px solid #e6e6e6 !important; 
+}
+}
+
+
+
+
+
+
+
+
+.cartsec2 .csec2lft .mcart {
+    float: left;
+    width: 85%;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+}
+
+.cartsec2 .csec2lft .mcart .icart {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.cartsec2 .csec2lft .mcart .icart .image {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.62);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartsec2 .csec2lft .mcart .icart .image img {
+    width: 70px;
+    height: 90px;
+}
+
+.cartsec2 .csec2lft .mcart .icart .detail {
+    float: left;
+    width: 100%;
+}
+
+.csec2lft .mcart .icart .detail h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartsec2 .csec2lft .mcart .icart .detail .price {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .csec2lft .mcart .icart .detail .price i {
+    font-size: 14px;
+    color: black;
+}
+
+.cartsec2 .csec2lft .mcart .icart .detail .price span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartsec2 .csec2lft .mcart .icart .detail span {
+    color: #5B5B5B;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons {
+    float: right;
+    width: 100%;
+}
+.cartsec2 .csec2lft .mcart .icart .icons button{
+   border: none;
+   background: transparent;
+   cursor: pointer;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .cancel {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 5px 0px 50px;;
+    /* align-items: top; */
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .cancel i {
+    font-size: 20px;
+    
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add {
+    float: right;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F0EEED;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add .minus {
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add .minus i {
+    font-size: 16px;
+    color: black;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add input {
+    width: 22px;
+    border: navajowhite;
+    background: transparent;
+    text-align: center;
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add .plus {
+    float: right;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* background-color: #261A39; */
+}
+
+.cartsec2 .csec2lft .mcart .icart .icons .add .plus i {
+    font-size: 18px;
+    /* color: white; */
+}
+
+.cartsec2 .csec2rgt {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .csec2rgt .sum {
+    float: left;
+    width: 100%;
+    /*padding: 10px;*/
+    /*border: 1px solid #e6e6e6;*/
+    border-radius: 20px;
+}
+
+.cartsec2 .csec2rgt .sum .summary {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+}
+
+.cartsec2 .csec2rgt .sum .summary h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cartsec2 .csec2rgt .sum .summary ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartsec2 .csec2rgt .sum .summary ul li span {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.cartsec2 .csec2rgt .sum .summary ul li #p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartsec2 .csec2rgt .sum .summary ul li #tp {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo .prlft {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo .prlft input {
+    background: #F0EEED;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo .prlft .btn {
+    background: #261A39;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo .prrgt {
+    float: left;
+    width: 100%;
+}
+
+.cartsec2 .csec2rgt .sum .summary .promo .prrgt .chkoutbtn {
+    height: 38px;
+    width: 100%;
+    background: #000;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartsec3 {
+    float: left;
+    width: 100%;
+}
+
+
+/* -------------Check Out Page-------------- */
+
+
+.chkoutsec1 {
+    float: left;
+    width: 100%;
+    /* padding: 40px 0;   */
+}
+
+.chkoutsec1 .heading {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .heading h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.chkoutsec1 .chksec1lft {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1lft .address {
+    float: left;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.chkoutsec1 .chksec1lft .address .add {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.chkoutsec1 .chksec1lft .address .add .detail {
+    float: left;
+    width: 100%;
+}
+
+.chksec1lft .address .add .detail p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.chksec1lft .address .add .detail p span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.address .add .icons {
+    float: right;
+    width: 100%;
+}
+
+.address .add .icons button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.address .add .icons .plus {
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* border-radius: 50%; */
+    margin-bottom: 60px;
+}
+
+.address .add .icons .plus i {
+    font-size: 26px;
+    /* color: white; */
+}
+
+.address .add .icons .cancel {
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.address .add .icons .cancel i {
+    font-size: 20px;
+}
+
+.chkoutsec1 .chksec1lft .addrs {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.chkoutsec1 .chksec1lft .addrs .addrsbtn {
+    float: right;
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.chkoutsec1 .chksec1lft.payment .pmethod {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.chkoutsec1 .chksec1lft .pmethod {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .up {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .up h4 {
+    color: #070707;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .down {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .down ul a {
+    text-decoration: none;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .down ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .down ul li span {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.chkoutsec1 .chksec1lft .pmethod .down ul li i {
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.chkoutsec1 .chksec1rgt {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1rgt .sum {
+    float: left;
+    width: 100%;
+    /*padding: 10px;*/
+    /*border: 1px solid #e6e6e6;*/
+    border-radius: 20px;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary ul li {
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary ul li span {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary ul li #p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary ul li #tp {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo .prlft {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo .prlft input {
+    background: #F0EEED;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo .prlft .btn {
+    background: #000;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo .prrgt {
+    float: left;
+    width: 100%;
+}
+
+.chkoutsec1 .chksec1rgt .sum .summary .promo .prrgt .chkoutbtn {
+    height: 38px;
+    width: 100%;
+    background: #000;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartsec3 {
+    float: left;
+    width: 100%;
+}
+
+/* --------- Order History Page---------- */
+
+
+.ordersec1 {
+    float: left;
+    width: 100%;
+    /* padding: 40px 0;   */
+}
+
+.ordersec1 .heading {
+    float: left;
+    width: 100%;
+}
+
+.ordersec1 .heading h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ .order {
+    float: left;
+    width: 100%;
+}
+
+ .order .ordercart {
+    float: left;
+    width: 85%;
+    padding: 20px;
+}
+
+ .order .ordercart .maincart {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+ .order .ordercart .ocart {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+}
+
+ .order .ordercart .ocart .image {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.62);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .order .ordercart .ocart .image img {
+    width: 70px;
+    height: 90px;
+}
+
+ .order .ordercart .ocart .detail {
+    float: left;
+    width: 100%;
+}
+
+.order .ordercart .ocart .detail h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ .order .ordercart .ocart .detail .price {
+    float: left;
+    width: 100%;
+}
+
+.ordercart .ocart .detail .price i {
+    font-size: 14px;
+    color: black;
+}
+
+.ordercart .ocart .detail .price span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ordercart .ocart .detail span {
+    color: #5B5B5B;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ordercart .ocart .icons {
+    float: right;
+    width: 100%;
+    padding :0;
+}
+.ordercart .ocart .icons button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.ordercart .ocart .icons .cancel {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 5px 0px 70px;
+    /* margin-bottom: auto; */
+    /* align-items: top; */
+}
+
+.ordercart .ocart .icons .cancel i {
+    font-size: 20px;
+}
+
+.ordercart .ocart .icons .buybtn {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 22px;
+}
+
+.ordercart .ocart .icons .buybtn .bybtn {
+    width: 80px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 20px;
+}

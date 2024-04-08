@@ -1,0 +1,385 @@
+@media only screen and (max-width: 999px) {
+    .img-display {
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 100% !important;
+}
+    section#section1 {
+        background: #261A39;
+        color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .col-lg-12.ml1 {
+        margin: 12px;
+        text-align: unset;
+    }
+
+    .ml {
+        display: flex;
+     
+        text-align: unset;
+        flex: 1;
+        list-style: none;
+    }
+    .col-lg-4.bot {
+        padding: 0em 0em 0em 1em;
+        border-style: solid;
+        border-width: 0px 0px 0px 0px;
+        /* border-color: var(--e-global-color-308e809); */
+        border-color: #ffffff36;
+    }
+
+    .row.bot {
+        display: flex;
+        align-items: center;
+        padding: 0em 0em 0em 1em;
+        border-style: solid;
+        border-width: 0px 0px 0px 0px;
+        /* border-color: var(--e-global-color-308e809); */
+        border-color: #ffffff36;
+    }
+
+    .row.mt-5 {
+        padding: 0em 0em 0em 1em;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        /* border-color: var(--e-global-color-308e809); */
+        border-color: #ffffff36;
+        display: flex;
+        align-items: center;
+    }
+
+    .col-lg-12.not1 {
+        /* text-align: end; */
+        padding: 0em 0em 0em 1em;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        /* border-color: var(--e-global-color-308e809); */
+        text-align: center;
+        border-color: #ffffff36;
+        /* display: flex; */
+        /* align-items: center; */
+    }
+
+    .not1 img {
+        width: 52%;
+    }
+
+    .cod1 img {
+        width: 18%;
+        height: auto;
+    }
+
+    .cod2 img {
+        width: 18%;
+        height: auto;
+    }
+
+    .cod2 {
+        margin: 20px 0px;
+        text-align: left;
+    }
+
+    .row.pt-5.hot h1 {
+        color: #FFF;
+        font-family: "Post No Bills Colombo ExtraBold";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-align: right;
+    }
+    .cod1 {
+        margin: 20px 0px;
+        text-align: right;
+    }
+
+    .rul img {
+        margin: -171px 0px 1px 0px;
+        width: 59%;
+    }
+
+    .rul img {
+        margin: -106px 0px 1px 0px;
+        width: 100%;
+    }
+
+    .rul1 {
+        padding: 20px;
+    }
+    .mo1 h2{
+        text-align: center;
+    }
+    .mo3 {
+        text-align: justify;
+    }
+
+    .mo img {
+        width: 37%;
+        height: auto;
+    }
+
+    .mo img {
+        width: 37%;
+        height: auto;
+        margin: 15px;
+    }
+    .cod img {
+        width: 89%;
+        height: auto;
+        margin: 18px -9px;
+    }
+
+  
+    img.do1 {
+        width: auto;
+        height: 150px;
+    }
+    img.do4{
+        height: 132px;
+        width: auto;
+        margin: 0px -10px;;
+    }
+
+    img.do3 {
+        width: auto;
+        height: 150px;
+    }
+
+    svg:not(:root) {
+        overflow: hidden;
+        WIDTH: 111%;
+    }
+
+    .crd1 .crdimg img {
+        width: 100%;
+        height: auto;
+    }
+    
+
+  }
+
+
+
+
+
+  
+
+  @media only screen and (max-width: 800px) {
+    img.do {
+        width: auto;
+        height: 113px;
+        margin: 13px;
+    }
+    img.do {
+        width: auto;
+        height: 105px;
+      margin: 0 auto;
+    }
+    img.do1 {
+        width: auto;
+        height: 110px;
+        margin: 0 auto;
+    }
+    img.do4{
+        height: 102px;
+        width: auto;
+        margin: 0px auto;;
+    }
+
+    img.do3 {
+        width: auto;
+        height: 110px;
+    }
+
+    .crd1 .crdimg img {
+        width: 100%;
+        height: 100%;
+        min-height: 230px;
+
+    }
+    
+.call1 {
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(232, 228, 239, 0.16);
+    box-shadow: 0px 0px 3.5px 1px rgba(0, 0, 0, 0.15);
+    width: 129%;
+    height: 234PX;
+}
+.crd1 {
+    text-align: left;
+    border-radius: 20px;
+    background: rgba(232, 228, 239, 0.16);
+    box-shadow: 0px 0px 3.5px 1px rgba(0, 0, 0, 0.15);
+    width: 129%;
+    height: 230PX;
+}
+
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+img.backgroundimageformobile {
+    display: block;
+    text-align: center;
+    /* max-width: 200px; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+      
+      /*.img-select {*/
+      /*      max-height: 292px !important*/
+      /*  }*/
+      section#section1 {
+    display: none;
+}
+li.nav-link.colp img {
+    width: 30%;
+    display: block;
+}
+
+section#secction4 {
+    display: none;
+}
+.col-lg-12.hot1 {
+    /*text-align: center;*/
+    padding: 0px 0;
+}
+    .col-lg-12.ml1 {
+        margin: 12px;
+        text-align: unset;
+    }
+    .rul img {
+        margin: -106px 0px 1px 0px;
+        width: 100%;
+    }
+
+    img.do3 {
+        width: auto;
+        height: 110px;
+        margin: 0 auto;
+    }
+    
+    .crd1 .crdimg img {
+        width: 100%;
+        height: 100%;
+        min-height: 230px;
+        margin: 0 auto;
+    }
+
+    .mo3 {
+    text-align: center;
+}
+    .mo img {
+    width: 37%;
+    height: auto;
+    margin: 0 auto;
+}   
+        .mo2 {
+    margin: 0 auto;
+}
+.call1 {
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(232, 228, 239, 0.16);
+    box-shadow: 0px 0px 3.5px 1px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 234PX;
+}
+.crd1 {
+    text-align: left;
+    border-radius: 20px;
+    background: rgba(232, 228, 239, 0.16);
+    box-shadow: 0px 0px 3.5px 1px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 230PX;
+}
+.god.hol {
+     margin: 0px; 
+         text-align: center;
+}
+.god {
+    text-align: center;
+     margin-top: 0!important; 
+    margin-bottom: 4rem!important;
+}
+.fjfjfj {
+    font-weight: bold;
+}
+  
+    img.do{
+        width: auto;
+        height: 98px;
+       margin: 0 auto;
+    }
+    .ko5.no {
+        margin: 0px 0px;
+    }
+
+    .col-lg-12.not1 h1 {
+        color: #FFF;
+        font-family: "Post No Bills Colombo ExtraBold";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+   
+    .bod1 h1 {
+        text-align: center;
+        color: #FFF;
+        font-family: "Post No Bills Colombo ExtraBold";
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 9.48px;
+    }
+
+    .bod img {
+        width: 100%;
+        /* height: max-content; */
+        height: auto;
+    }
+
+
+    section.secction7 {
+        /* background: #F5F5F5; */
+        background-image: url(https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+        padding: 100px 0px;
+    }
+    
+    section.secction4 {
+       padding: 30px 0;
+   }
+
+   section#sectionheaderformobile {
+    display: block;
+    width: 100%;
+    color: #fff;
+    /* position: fixed; */
+    background: #000 !important;
+   }
+
+
+
+  }
+
+  

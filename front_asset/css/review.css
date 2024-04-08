@@ -1,0 +1,127 @@
+@media only screen and (max-width: 600px) {
+  .reviewsec1 .review .reviewcart {
+    width: 100% !important;
+    padding: 0px !important;
+}
+.rating {
+    margin-top: 0 !important;
+   
+}
+.rating > label:before {
+    
+    font-size: 23px !important;
+    
+}
+}
+.reviewsec1 {
+    float: left;
+    width: 100%;
+    /* padding: 40px 0;   */
+}
+
+.reviewsec1 .heading {
+    float: left;
+    width: 100%;
+}
+
+.reviewsec1 .heading h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviewsec1 .review {
+    float: left;
+    width: 100%;
+}
+
+.reviewsec1 .review .reviewcart {
+    float: left;
+    width: 85%;
+    padding: 20px;
+}
+
+.reviewsec1 .review .reviewcart .maincart {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.reviewsec1 .review .reviewcart .rcart {
+    float: left;
+    width: 100%;
+
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+}
+
+.reviewsec1 .review .reviewcart .rcart .image {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.62);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsec1 .review .reviewcart .rcart .image img {
+    width: 90px;
+    height: 140px;
+}
+
+.reviewsec1 .review .reviewcart .rcart .detail {
+    float: left;
+    width: 100%;
+}
+
+.review .reviewcart .rcart .detail h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.reviewsec1 .review .reviewcart .rcart .detail .rating {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.reviewcart .rcart .detail .rating i {
+    font-size: 18px;
+    color: #FFC633;
+}
+
+.reviewcart .rcart .detail .txt{
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  /* box-shadow: none; */
+}
+.reviewcart .rcart .detail  .form-control:focus {
+    color: #05070a;
+    background-color: transparent;
+    border-color: #261A39;
+    outline: 0;
+    box-shadow: none;
+}
+
+.reviewcart .rcart .detail .sbtn {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+
+.reviewcart .rcart .detail .sbbtn {
+    width: 120px;
+    height: 36px;
+    background-color: #261A39;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+}

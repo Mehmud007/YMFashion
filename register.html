@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Djinn || Register</title>
+  
+  <!--<link rel="icon" href="https://idigipie.com/Test//assets/images/Monlye.png" type="image/x-icon" />-->
+  <!-- base:css -->
+  <link rel="stylesheet" href="https://idigipie.com/Test/vendors/ti-icons/css/themify-icons.css">
+  <link rel="icon" href="https://idigipie.com/Test//uploads/djinnlogo.png" type="image/gif" >
+  <link rel="stylesheet" href="https://idigipie.com/Test/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="https://idigipie.com/Test/css/layout/style.css">
+  <!-- endinject -->
+  
+  <style>
+  .error{
+    color: red;
+  }
+  h1{
+      font-family: Poppins;
+        font-size: 38px;
+        font-weight: bolder;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+
+  }
+	.auth .brand-logo {
+		/*margin-bottom: 2rem;*/
+		text-align: center;
+	}
+	.auth .brand-logo img {
+        width: 200px;
+        
+    }
+   h6.font-weight-light {
+    font-size: 20px;
+    font-weight: bolder !important;
+    text-align: center;
+}
+.auth .auth-form-light{
+    background:#ffffff;
+    border:3px solid #0f1217;
+    border-radius:40px;
+}
+input {
+    background: #fff !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+}
+input {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-family: Poppins !important;
+}
+button.btn.btn-block.btn-lg.font-weight-medium.auth-form-btn {
+    border-radius: 10px;
+    background: #000;
+}
+h1.jdhjd {
+    color: #000;
+}
+a.registenoe {
+    color: #fb0000;
+    font-weight: 700;
+}
+a.registenoe:hover {
+    text-decoration:none;
+}
+.form-group lable {
+    font-weight: bold;
+    color: #313131;
+}
+ h4 {
+    font-weight: bold;
+    color: #313131;
+}
+
+.form-group input {
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-lg-6.textcenter {
+    text-align: center;
+}
+}
+
+  </style>
+</head>
+
+<body >
+  <div class="container-scroller" >
+    <div class="container-fluid page-body-wrapper full-page-wrapper" >
+      <div class="content-wrapper d-flex align-items-center auth px-0" style="background: radial-gradient(circle at 50%, #5f5f5f, #262626  50%, #262626  75%, #262626  75%);
+    background-size: 100% 100%; ">
+        <div class="row w-100 mx-0">
+          <div class="col-lg-5 mx-auto">
+            <div class="auth-form-light text-left py-5 px-4 my-5">
+              <div class="brand-logo">
+                <!--<h1>Djinn</h1>-->
+                <!--<p>Eccomerce Admin Login</p>-->
+                 <img src="/front_asset/images/Ylogo.png" width="115px"> 
+              </div>
+              <h1 class="jdhjd">Sign Up </h1>
+				
+			  <form class="pt-3" role="form"id="registerform" method="post" action=" ">
+                <div class="form-group">
+                    <lable>Name</lable>
+                  <input type="text" name="name" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <lable>Email</lable>
+                  <input type="email" name="email" id="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <lable>Phone</lable>
+                  <!--<input type="number" name="phone" class="form-control form-control-lg"  placeholder="Phone" required>-->
+                <input type="text" onkeypress="validate(event)" name="phone" class="form-control form-control-lg" id="phone" maxlength="15" autocomplete="off" placeholder="Enter Mobile Number" required>
+                 <span class="error" id="phoneError"></span>
+                </div>
+                <div class="form-group">
+                    <lable>Password</lable>
+                  <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password" required>
+                  <span class="error" id="passwordError"></span>
+                </div>
+                <div class="form-group">
+                    <lable>Confirm Password</lable>
+                  <input type="password" name="cpassword" class="form-control form-control-lg" id="confirm_password" placeholder="Confirm Password" required>
+                  <lable id="confirm_password_msg"></lable>
+                </div>
+                <!--<div class="form-group">-->
+                <!--     <lable>Password</lable>-->
+                <!--  <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" required>-->
+                <!--</div>-->
+                <div class="mt-3">
+                  <button type="submit" name="submit" id="submitButton" class="btn btn-block  btn-lg font-weight-medium auth-form-btn">SIGN UP</button>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="row col-lg-12">
+                        <div class="col-lg-12 text-center">
+                            <h4 >Already Have An Account ?</h4>
+                       
+                            <a href="/login.html" class="registenoe">Login Now</a>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- base:js -->
+  <script src="https://idigipie.com/Test/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="https://idigipie.com/Test/js/off-canvas.js"></script>
+  <script src="https://idigipie.com/Test/js/hoverable-collapse.js"></script>
+  <script src="https://idigipie.com/Test/js/template.js"></script>
+  <script src="https://idigipie.com/Test/js/settings.js"></script>
+  <script src="https://idigipie.com/Test/js/todolist.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script>
+           $(document).ready(function(){
+    $("#confirm_password,#password").on('input', function(){
+        check_Password($("#password").val(), $("#confirm_password").val());
+    });
+});
+
+function check_Password(Pass, Con_Pass) {
+    if (Pass === "") {
+        // Handle case where the password is empty
+    } else if (Pass === Con_Pass) {
+        $("#sign_in_btn").removeAttr("onclick");
+        $('#confirm_password_msg').show();
+        $("#confirm_password_msg").html('<div class="alert alert-success">Password matched</div>');
+    } else {
+        $("#confirm_password_msg").hide(); // Hide the message initially
+        // $("#confirm_password").focus();
+        $('#confirm_password_msg').show();
+        $("#confirm_password_msg").html('<div class="alert alert-danger">Password did not match</div>');
+    }
+}
+
+var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+var passwordInput = document.getElementById("password");
+var passwordError = document.getElementById("passwordError");
+var emailPattern = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+var phonePattern = /^\d{10}$/;
+
+passwordInput.addEventListener("input", function() {
+    if (!passwordPattern.test(passwordInput.value)) {
+        passwordError.innerHTML = "Password must have at least one uppercase letter, one lowercase letter, and be at least 8 characters long.";
+        passwordError.style.display = "block"; // Show the error message
+    } else {
+        passwordError.innerHTML = "";
+        passwordError.style.display = "none"; // Hide the error message
+    }
+});
+
+var emailInput = document.getElementById("email");
+      var emailError = document.getElementById("emailError");
+
+      emailInput.addEventListener("input", function() {
+        if (!emailPattern.test(emailInput.value)) {
+            emailError.innerHTML = "Email Should Be in proper Format";
+            emailError.style.display = "block"; // Show the error message
+        } else {
+            emailError.innerHTML = "";
+            emailError.style.display = "none"; // Show the error message
+        }
+         
+    });
+    var phoneInput = document.getElementById("phone");
+      var phoneError = document.getElementById("phoneError");
+
+      phoneInput.addEventListener("input", function() {
+        $("#phone"). attr('maxlength','15'); 
+        
+         if(phoneInput.value.length < 7 || phoneInput.value.length > 15){
+            phoneError.innerHTML = "Phone No must be between 7 to 15 digit.";
+            phoneError.style.display = "block"; // Show the error message
+
+        }  else {
+            phoneError.innerHTML = "";
+            phoneError.style.display = "none"; // Show the error message
+
+        }
+    });
+    var submitButton = document.getElementById("submitButton");
+
+// Add a click event listener to the submit button
+submitButton.addEventListener("click", function(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Check if any elements with the .error class exist and are visible
+    var errorElements = document.querySelectorAll(".error");
+    var visibleErrors = Array.from(errorElements).filter(function(element) {
+        return window.getComputedStyle(element).display !== "none";
+    });
+    console.log("ero");
+console.log(visibleErrors);
+    if (visibleErrors.length > 0) {
+        // Display an error alert when visible errors are found
+        alert("Please correct the errors in the form.");
+    } else {
+        // If no visible errors, allow the form to submit
+        document.getElementById("registerform").submit();
+    }
+});
+   </script>
+   <script>
+        function validate(evt) {
+      var theEvent = evt || window.event;
+    
+      // Handle paste
+      if (theEvent.type === 'paste') {
+          key = event.clipboardData.getData('text/plain');
+      } else {
+      // Handle key press
+          var key = theEvent.keyCode || theEvent.which;
+          key = String.fromCharCode(key)
+;
+      }
+      var regex = /[0-9]|\./;
+      if( !regex.test(key)
+ ) {
+        theEvent.returnValue = false;
+        if(theEvent.preventDefault) theEvent.preventDefault();
+      }
+  
+    }
+
+    
+    </script>
+    
+  <!-- endinject -->
+</body>
+
+</html>
